@@ -12,7 +12,7 @@ repoDialog::repoDialog(QWidget *parent) :
 {
     repo_ui->setupUi(this);
     this->set_style_sheets();
-    this->setWindowIcon(QIcon("/home/kirotawa/Development/jynx/data/icon.png"));
+    this->setWindowIcon(QIcon("/jynx/data/icon.png"));
 }
 repoDialog::~repoDialog()
 {
